@@ -21,3 +21,31 @@ border-radius: 15px;
     font-family: monospace;
 }
  
+
+
+#flexbox .container{
+ /*Aplica o Diplay FLEX no PAI dos elementos
+ 
+ Se mudar o Flex-direction de row(linha)
+ para column(Coluna). 
+ O Justfy-content sera o alinhamento VERTICAL.
+ E align-items o alinhamento HORIZONTAL.   
+ */
+  display: flex;
+  flex-direction: row; /* direcao do flex */
+  gap: 20px; /*Espaco entre os elementos*/
+  justify-content: space-around; /*Alinhamento Horizontal, espacamento entre so elementos etc..*/
+  align-items: center; /*Alinhamento na VERTICAL*/ 
+}
+
+#flexbox .container .box{ 
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+}
+
+#flexbox .container .box-2{ 
+    width: 200px;
+    height: 400px;
+    background-color: rgb(0, 113, 128);
+  }
