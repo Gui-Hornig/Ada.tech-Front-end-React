@@ -1,0 +1,23 @@
+/* Cascading Style Sheet */
+
+.title{
+    font-size: 50px;
+    font-weight: 400; /**Peso da fonte*/
+}
+
+#principais-estilos{
+background-color: black;
+color: white;
+padding: 50px; /*Espacamento INTERNO*/
+margin: 40px ; /*Espacamento EXERNO*/
+border: 10px solid rgb(167, 12, 12);
+border-radius: 15px;
+}
+
+#principais-estilos .paragrafo {
+    font-size: 1,5rem;
+    line-height: 1.2; /*Espacamento das linhas*/
+    color: green;
+    font-family: monospace;
+}
+ 
