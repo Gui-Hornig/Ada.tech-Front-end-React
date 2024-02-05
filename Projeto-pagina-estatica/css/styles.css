@@ -87,11 +87,18 @@ main #banner .banner-content .banner-content-subtitle{
   margin-bottom: 2.37rem;
 }
 
-main #banner .banner-content .banner-content-btn{
+main #banner .banner-content .banner-content-bnt{
   background-color: #00A8CC;
   color: white;
   font-size: 1.25rem;
   font-weight: 500;
-  border-radius: 2px;
-  padding: ;
+  border-radius: 0.15rem;
+  padding: 0.5rem 1.25rem ;
+  border: none;
+}
+
+main #banner .banner-image{
+  border-radius: 90% 40% 90% 40%;
+  width: 100%;
+  max-width: 18.75rem;
 }
